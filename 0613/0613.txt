@@ -1,0 +1,6 @@
+# R 설치
+
+1) CranR :: R을 다운 받는다. (Mirror -> Korea)
+https://cran.seoul.go.kr/
+2) Rstudio :: IDE를 다운 받는다.
+https://www.rstudio.com/products/rstudio/download/#download
