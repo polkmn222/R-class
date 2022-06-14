@@ -61,10 +61,43 @@ y[c(FALSE, TRUE, FALSE, TRUE, FALSE)]
 y > 5
 y[y > 5]
 
+## 
+## 1번 문제
+
 x <- c(17, 16, 20, 24, 22, 15, 21, 18)
 length(x)
 x[length(x)]
 
+## 2번문제
 y <- c(10.4, 5.6, 3.1, 6.4, 9.6, 7.8, 12.1)
 length(y)
-y[length(y) / 2]
+y[length(y) - 2]
+tail(y, 3)
+
+## 1부터 100까지의 데이터가 존재한다.
+## 나는 50보다 큰 값을 구하고 싶다
+## 3775가 나와야 한다
+c(1, 2, 3, 4, 5); 1:5
+
+# hint는 인덱싱 후
+# why 그냥 sum을 하면 50이라는 숫자가 출력되었을까?
+x <- 1:100
+sum(x[x > 50])
+
+# step 1 - 50보다 크다라는 조건을 생성
+x>50
+
+# step 2 - 위의 조건에 해당하는 값을 indexing한다
+cond1 <- x[x > 50]
+
+# step 3 - sum함수를 통해 더한다
+sum(cond1)
+
+
+## matrix vs data.frame
+ma_a <- matrix(1:12, c(3, 4))
+
+df_a <- as.data.frame(matrix(1:12, c(3, 4)))
+
+length(ma_a); length(df_a)
+# 이유가 뭘까요???
