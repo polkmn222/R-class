@@ -24,6 +24,14 @@
 * tibble
 
 ### 0615
+* 벡터화
+* strsplit() : 문자열 처리
+* 리스트 구조를 해제
+* sub함수
+* factor 및 z-score
+* formula z
+* cut
 
+### 0616
 
 
