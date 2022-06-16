@@ -33,5 +33,11 @@
 * cut
 
 ### 0616
-
+* attach
+* detach
+* with
+* subset
+* melt
+* dcast
+* 회기분석 시각화
 
