@@ -41,3 +41,14 @@
 * dcast
 * 회기분석 시각화
 * for, if, else, while
+
+### 0620
+* tidyverse 복습
+* setting
+* mapping
+* EDA
+* 다변량 탐색
+* rename
+
+### 6021
+
